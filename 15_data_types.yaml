@@ -7,8 +7,8 @@
       - python
       - shjavaell
       - ansible
-      - 
+      
     concepts: # dictionary or map
-      cloud: aws
-      cm: ansible
+      cloud: "aws"
+      cm: "ansible"
       
