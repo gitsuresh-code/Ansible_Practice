@@ -3,10 +3,10 @@
   connection: local
   tasks:
   - name: calling variable from task
-  vars:
-    ename: suresh
-    exp: 11+
-    designation: DevOpsEngineer
-  ansible.builtin.debug:
-    msg: "{{ ename }} is {{ designation }} with {{ exp }}"
+    vars:
+      ename: suresh
+      exp: 11+
+      designation: DevOpsEngineer
+    ansible.builtin.debug:
+      sg: "{{ ename }} is {{ designation }} with {{ exp }}"
     
