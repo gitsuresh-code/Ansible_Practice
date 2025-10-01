@@ -1,4 +1,3 @@
-- name: data types
   vars:
     Course: "DevOps with AWS" # string
     Duration: 120 # number
