@@ -7,6 +7,6 @@
     Exp: 11+
   tasks:
   - name: Calling Playbook variables
-    ansible.builtin.debub:
+    ansible.builtin.debug:
       msg: "{{ name }} is {{ designation }} with {{ Exp }}"
     
