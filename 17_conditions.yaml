@@ -3,7 +3,7 @@
   connection: local
   tasks:
     - name: Conditons Practice
-      vars promt:
+      vars_promt:
       - name: a
         prompt: Enter the value
         private: false
