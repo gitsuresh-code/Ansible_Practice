@@ -3,10 +3,10 @@
   connection: local
   vars:
     test: play_vatestriable
-  vars_prompt:
-    - name: test
-      prompt: what is your name?
-      private: false
+  # vars_prompt:
+  #   - name: test
+  #     prompt: what is your name?
+  #     private: false
   vars_files:
   - variable.yaml
   tasks:
@@ -15,3 +15,6 @@
     #   test: task_variable
     ansible.builtin.debug:
       msg: "Printing the variable: {{ test }}"  
+
+#1 Task variables
+#2 
