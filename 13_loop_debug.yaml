@@ -5,9 +5,9 @@
   tasks:
     - name: Loop checking for Debug command
       ansible.builtin.debug:
-        msg: "User Name: {{ uname }}"
+        msg: "User Name: {{ item }}"
       loop:
-      - uname: Suresh
-      - uname: Ramesh
-      - uname: DevOps
+      - Suresh
+      - Ramesh
+      - DevOps
 
