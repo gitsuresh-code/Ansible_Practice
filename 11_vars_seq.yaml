@@ -1,8 +1,8 @@
 - name: Variables Practice
   hosts: local
   connection: local
-  vars:
-    test: play_variable
+  # vars:
+  #   test: play_variable
   # vars_prompt:
   #   - name: test
   #     prompt: what is your name?
@@ -18,4 +18,5 @@
 
 #1 Task variables
 #2 Prompt Variables
-#3 
+#3 Play Variable
+#4 
