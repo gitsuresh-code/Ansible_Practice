@@ -1,0 +1,13 @@
+- name: nginx Setup
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: Installation
+    ansible.builtin.package:
+      name: nginx
+      state: present
+    ansible.builin.service:
+      name: nginx
+      state: started
+      enabled: yes
