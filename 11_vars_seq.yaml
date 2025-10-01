@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    test: play_vatestriable
+    test: play_variable
   # vars_prompt:
   #   - name: test
   #     prompt: what is your name?
@@ -17,4 +17,5 @@
       msg: "Printing the variable: {{ test }}"  
 
 #1 Task variables
-#2 
+#2 Prompt Variables
+#3 
