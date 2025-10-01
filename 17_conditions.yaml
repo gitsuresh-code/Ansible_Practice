@@ -4,9 +4,9 @@
   tasks:
     - name: Conditons Practice
       vars_promt:
-      - name: a
-        prompt: Enter the value
-        private: false
+        - name: a
+          prompt: Enter the value
+          private: false
       ansible.builtin.debug:
         msg: "a is less than 10"
       when: a < 10
