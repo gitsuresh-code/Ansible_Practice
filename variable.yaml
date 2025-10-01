@@ -1,0 +1,5 @@
+- name: Variables
+  vars:
+    ename: suresh
+    exp: 11+
+    designation: DevOPS Engineer

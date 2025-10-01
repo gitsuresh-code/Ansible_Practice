@@ -1,0 +1,9 @@
+- name: Variables Practice
+  hosts: local
+  connection: local
+  vars_files:
+  - variable.yaml
+  tasks:
+  - name: file variables
+    ansible.builtin.debug:
+      msg: "{{ ename }} is {{ designation }} with {{ exp }} experience"
