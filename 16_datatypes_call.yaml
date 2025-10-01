@@ -4,7 +4,7 @@
   vars_files:
   - 15_data_types.yaml
   tasks:
-  - name: Calling Data types from another file:15_data_types.yaml
+  - name: Calling Data types from another file
     ansible.builtin.debug:
-      msg: "Course: {{ Course }} Duration: {{ Duration }} and skills required: {{ skills }} and Main concepts covered: {{ concepts }}"
+      msg: "Available_course: {{ Course }} required_duration: {{ Duration }} and skill_set required: {{ skills }} and Main_concepts covered: {{ concepts }}"
     
