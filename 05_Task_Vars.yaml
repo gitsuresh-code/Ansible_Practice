@@ -7,7 +7,7 @@
     ename: suresh
     exp: 11+
     designation: DevOpsEngineer
-  ansible.builin.debug:
+  ansible.builtin.debug:
     msg: "{{ ename }} is {{ designation }} with {{ exp }}"
-    
+
     
