@@ -17,5 +17,5 @@
          state: started
        loop:
        - nginx
-       - python3
+       #- python3
     
