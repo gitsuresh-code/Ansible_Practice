@@ -1,14 +1,14 @@
-- name: Conditons 
+- name: Practice 
   hosts: local
   connection: local
   vars_prompt:
-   - name: a
+   - name: number
      prompt: Enter the value
      private: false
 
   tasks:
-    - name: Conditons Practice
+    - name:  Practice
       ansible.builtin.debug:
-        msg: "{{ a }} is less than 10"
-      when: a < 10
+        msg: "{{ number }} is less than 10"
+      when: number < 10
 
