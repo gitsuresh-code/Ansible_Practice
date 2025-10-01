@@ -1,0 +1,21 @@
+- name: Package Status
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+     - name: Status of the services
+       ansible.builtin.package:
+          name: "{{ item }}"
+          state: latest
+       loop:
+       - nginx
+       - python3
+
+    #  - name: St
+    #    ansible.builtin.package:
+    #     name: "{{ item }}"
+    #     state: latest
+    #    loop:
+    #    - nginx
+    #    - python3
+    
