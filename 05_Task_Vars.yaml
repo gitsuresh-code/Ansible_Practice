@@ -8,5 +8,5 @@
       exp: 11+
       designation: DevOpsEngineer
     ansible.builtin.debug:
-      sg: "{{ ename }} is {{ designation }} with {{ exp }}"
+      msg: "{{ ename }} is {{ designation }} with {{ exp }}"
     
