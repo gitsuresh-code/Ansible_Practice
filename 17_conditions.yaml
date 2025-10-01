@@ -8,6 +8,6 @@
           prompt: Enter the value
           private: false
       ansible.builtin.debug:
-        msg: "a is less than 10"
+        msg: "{{ a }} is less than 10"
       when: a < 10
 
