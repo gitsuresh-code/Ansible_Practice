@@ -3,7 +3,7 @@
   connection: local
   become: yes
   tasks:
-     - name: Status of the services
+     - name: Upgrading packages to latest version
        ansible.builtin.package:
           name: "{{ item }}"
           state: latest
