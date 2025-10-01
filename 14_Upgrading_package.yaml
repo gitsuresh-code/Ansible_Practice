@@ -11,11 +11,11 @@
        - nginx
        - python3
 
-    #  - name: St
-    #    ansible.builtin.package:
-    #     name: "{{ item }}"
-    #     state: latest
-    #    loop:
-    #    - nginx
-    #    - python3
+     - name: Starting the services
+       ansible.builtin.service:
+         name: "{{ item }}"
+         state: started
+       loop:
+       - nginx
+       - python3
     
