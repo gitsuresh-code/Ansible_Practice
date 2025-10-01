@@ -8,5 +8,5 @@
   tasks:
   - name: Calling Playbook variables
     ansible.builtin.debug:
-      msg: "{{ name }} is {{ designation }} with {{ Exp }}"
+      msg: "{{ name }} is {{ designation }} with {{ Exp }} experience"
     
