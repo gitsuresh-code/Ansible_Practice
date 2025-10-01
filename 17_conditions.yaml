@@ -7,8 +7,8 @@
      private: false
 
   tasks:
-    - name:  Practice
-      ansible.builtin.debug:
-        msg: "{{ number }} is less than 10"
-      when: number < 10
+   - name: Practice
+     ansible.builtin.debug:
+      msg: "{{ number }} is less than 10"
+     when: number < 10
 
