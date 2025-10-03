@@ -17,7 +17,7 @@
       msg: "Printing the variable: {{ test }}"  
 
 #1 Task variables
-#2 Prompt Variables
-#3 Play Variable
-#4 Inventory Variable
-#5 x
+#2 File variables
+#3 Prompt Variables
+#4 Play Variable
+#5 Inventory Variable
