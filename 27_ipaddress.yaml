@@ -1,7 +1,8 @@
 - name: Functions
   hosts: local
   connection: local
-  ip: "192.20.0.0"
+  vars:
+    ip: "192.20.0.0"
   tasks:
   - name: IP is valid or not
     ansible.builtin.debug:
