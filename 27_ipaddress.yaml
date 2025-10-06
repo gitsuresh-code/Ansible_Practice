@@ -5,5 +5,4 @@
   tasks:
   - name: IP is valid or not
     ansible.builtin.debug:
-      msg: "{{ ip | ansible.util.ipv4 }}"
-      
+      msg: "{{ ip | ansible.utils.ipv4 }}"
