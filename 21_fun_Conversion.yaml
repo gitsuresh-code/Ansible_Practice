@@ -1,7 +1,7 @@
 - name: functions
   hosts: local
   connection: local
-  technologies: DevOps,linux,SQL,Ansible  #string
+  technologies: DevOps, linux, SQL, Ansible  #string
   tasks:
   - name: Convert string into list
     ansible.builtin.debug:
