@@ -1,0 +1,8 @@
+- name: functions
+  hosts: local
+  connection: local
+  name: Suresh Ustela
+  tasks:
+  - name: Upper Case conversion
+    ansible.builtin.debug:
+      msg: "{{ name | upper }}"
