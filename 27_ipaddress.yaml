@@ -6,4 +6,4 @@
   tasks:
   - name: IP is valid or not
     ansible.builtin.debug:
-      msg: "{{ ip | ansible.utils.ipv4 }}"
+      msg: "{{ ip | ansible.utils.ipv4 }}" #pip install netaddr - dependency libraries should be installed
