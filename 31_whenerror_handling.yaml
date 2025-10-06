@@ -1,6 +1,7 @@
 - name: Conditions
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: Error Handling using WHEN functions
     ansible.builtin.command: id roboshop
