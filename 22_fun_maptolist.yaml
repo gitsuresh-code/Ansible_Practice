@@ -1,7 +1,6 @@
 - name: functions
   hosts: local
   connection: local
-   
   tags:  # dictionary == map
    Application: payment
    Environment: dev
