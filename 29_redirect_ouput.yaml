@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: redirect the output
-    ansible.builtin.command: ls -ltr > /tmp/output.txt
+    ansible.builtin.command: ls -lrt > /tmp/output.txt
     register: redirect_output
     ignore_errors: true
 
