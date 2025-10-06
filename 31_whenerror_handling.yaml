@@ -9,7 +9,8 @@
     ignore_errors: true
 
   - name: print the USEROUTPUT
-    ansible.builtin.debug: "{{ user_check }}"
+    ansible.builtin.debug:
+     msg: "{{ user_check }}"
 
   - name: create user
     ansible.builtin.command: useradd roboshop
