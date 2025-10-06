@@ -1,7 +1,8 @@
 - name: functions
   hosts: local
   connection: local
-  ename: "Suresh Ustela"
+  vars:
+    ename: "Suresh Ustela"
   tasks:
   - name: Upper Case conversion
     ansible.builtin.debug:
