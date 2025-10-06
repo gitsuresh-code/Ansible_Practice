@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: reading yaml and storing into variable
-    ansible.builtin.debug:
+    ansible.builtin.set_fact:
       student_yaml: "{{ lookup ('file', 'student.yaml') | from_yaml }}"
   - name: convert yaml into json
     ansible.builtin.debug:
